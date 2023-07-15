@@ -40,6 +40,8 @@ a {
     font-weight: bold;
 }
 
+
+
 .links-container {
     display: flex;
     justify-content: space-between;
@@ -87,6 +89,10 @@ a {
     justify-content: center;
     align-items: center;
     align-content: center;
+}
+
+.banner {
+    background: url(/images/background_image.png)
 }
 
 .banner h1 {
@@ -176,7 +182,8 @@ a {
 .column-item {
     text-align: center;
     font-size: 16px;
-    height: 370px;
+    height: 428px;
+    width: 270px;
     background-color: #FFF;
     border-radius: 5px;
     filter: drop-shadow(5px 5px 5px #a0a0a0);
@@ -191,6 +198,23 @@ a {
 .column-item p {
     margin-top: 20px;
     color: #757575;
+}
+
+
+.social-icons {
+    display: flex;
+    margin-top: 28px;
+    gap: 34px;
+    justify-content: center;
+    margin-bottom: 42px;
+
+}
+
+
+.social-icons .icon {
+    width: 20px;
+    height: 20px;
+    gap: 34px;
 }
 
 .footer-bg {
